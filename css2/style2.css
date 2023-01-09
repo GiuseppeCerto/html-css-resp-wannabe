@@ -32,10 +32,6 @@
     }
 
     h2{
-        font-size: 45px;
-    }
-
-    .h3{
         font-size: 40px;
     }
 
@@ -44,11 +40,31 @@
         align-items: center;
     }
 
-    .col{
-        display: flex;
-        flex-wrap: wrap;
+    .card{
+        margin-bottom: 2rem;
     }
-    img{
+
+    .lessons .col{
         width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .why-us .col{
+        width: 100%;
+    }
+
+    .why-us .col > img{
+        margin-bottom: 2rem;
+    }
+
+    .card > h3{
+        font-size: 30px;
+    }
+
+    .card > p{
+        font-size: 20px;
     }
 }
